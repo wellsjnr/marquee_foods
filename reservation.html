@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Marquee</title>
+    <meta name="robots" content="noodp"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' id='dina-bootstrap-css-css'  href='css/bootstrap/css/bootstrap.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='dina-font-awesome-css'  href='css/fontawesome/css/font-awesome.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='dina-style-css-css'  href='style.css' type='text/css' media='all' />
+    <link rel="icon" href="images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="images/icons/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="images/icons/favicon-180x180.png" />
+  </head>
+   <body class="body-header1" >
+      <div class="mask-nav-2">
+         <nav class="navbar navbar-2 nav-mobile">
+            <div class="nav-holder nav-holder-2">
+               <ul id="menu-menu-2" class="menu-nav-2">
+						<li class="menu-item menu-ihas-children">
+							<a href="index.html">Home</a>	
+						</li>
+						<li class="menu-item current-menu-item"><a href="reservation.html">Reservation</a></li>
+					</ul>
+            </div>
+         </nav>
+         <div class="rightside-nav-2">
+            <h3>Book Now</h3>
+            <ul class="right-side-contact">
+               <li><label>Address:</label> 46 Alaska Ave, Ifo, Ogun</li>
+               <li><label>Phone:</label> 0812-371-2700</li>
+               <li><label>Email:</label> adewalebolu3@gmail.com </li>
+            </ul>
+         </div>
+      </div>
+      <header id="header-1">
+         <div class="headerWrap-1">
+            <nav class="navbar-1">
+               <div class="top-location">
+                  <span class="info-txt">46 Alaska Ave,  </span>
+                  <span class="info-txt">Ifo, Ogun</span>   
+               </div>
+               <div class="book-now">
+                  <span class="info-txt">Book Now</span>
+                  <span class="info-txt">0812-371-2700</span>   
+               </div>
+               <div class="nav-button-holder nav-btn-mobile inactive">
+				<span class="menu-txt">MENU</span>
+				<button type="button" class="nav-button">
+				<span class="icon-bar"></span>
+				</button>
+				</div>
+               <div class="nav-content-1">
+                  <div class="nav-holder nav-holder-1 nav-holder-desktop">
+                     <ul id="menu-menu-1" class="menu-nav menu-nav-1">
+                        <li class="menu-item menu-em-has-children">
+                     <a href="index.html">Home</a> 
+                  <li class="menu-item current-menu-item"><a href="reservation.html">Reservation</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <section class="topSingleBkg topPageBkg">
+         <div class="item-content-bkg">
+            <div class="item-img"  style="background-image:url('images/top-headers/pexels-huá»³nh-Äáº¡t-2313037-2.jpg');" ></div>
+            <div class="inner-desc">
+               <h1 class="post-title single-post-title">Book Your Table</h1>
+               <span class="post-subtitle"> We accept reservation. Call us or complete the form below</span>
+            </div>
+         </div>
+      </section>
+      <section id="wrap-content" class="page-content">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+               
+                  <div class="page-holder custom-page-template">
+                     <div class="categ-name">
+                        <h2>Make a reservation</h2>
+                     </div>
+                     <p class="alignc">You may make a reservation any time online or by calling 0812-371-2700 during our opening hours:</p>
+                  </div>
+                  <div class="reservation_txt">
+                     <form method="post" id="reservation-form"  action="https://formspree.io/f/xknayydo" method="POST">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <label>Name*</label>
+                              <p><input type="text" name="author" class="reservation-fields" size="30" value="" aria-required="true" /></p>
+                           </div>
+                           <div class="col-md-4">
+                              <label>Email*</label>
+                              <p><input type="text" name="email" class="reservation-fields" size="30" value="" aria-required="true" /></p>
+                           </div>
+                           <div class="col-md-4">
+                              <label>Phone*</label>
+                              <p><input type="text" name="phone" class="reservation-fields" size="30" value="" aria-required="true" /></p>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-4">
+                              <label>Date*</label>
+                              <p><input type="date" name="datepicker" id="datepicker" class="reservation-fields" size="30" value="" aria-required="true" aria-invalid="false" /></p>
+                           </div>
+                           <div class="col-md-4">
+                              <label>Time*</label>
+                              <p>
+                                 <select name="time" class="reservation-fields">
+                                    <option value="09:00">09:00</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="21:00">21:00</option>
+                                    <option value="22:00">22:00</option>
+                                 </select>
+                              </p>
+                           </div>
+                           <div class="col-md-4">
+                              <label>Seats*</label>
+                              <p><input type="text" name="persons" class="reservation-fields" size="30" value="" aria-required="true" /></p>
+                           </div>
+                        </div>
+                        <label>Special Requests</label>
+                        <p> <textarea name="message" id="message2" class="reservation-fields" cols="100" rows="4" tabindex="4" size="30" value=""></textarea></p>
+                        <p class="antispam">Leave this empty: <input type="text" name="url" /></p>
+                        <p class="alignc"><input type="submit" value="Book Now" id="submit" /></p>
+                     </form>
+                  </div>
+                  <div id="output"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+    <footer>
+      <div class="container">
+        <div class="row alignc">
+          <div class="col-md-4">
+            <div class="footer-content">
+              <h5>ADDRESS:</h5>
+              <p>Marquee Foods <br/>
+                46 Alaska Ave, Ifo, Ogun
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-content">
+              <h5>RESERVATION:</h5>
+              <p>0812-371-2700<br/>
+                adewalebolu3@gmail.com
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-content">
+              <h5>OPEN HOURS:</h5>
+              <p>Monday - Friday: 10 AM - 11 PM <br/>
+                Saturday - Sunday: 9 AM - 1 PM
+              </p>
+            </div>
+          </div>      
+        </div>
+        <div class="scrollup">
+          <a class="scrolltop" href="#">
+          <i class="fas fa-chevron-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script  src='js/jquery.js'></script>
+    <script  src='js/jquery-migrate.min.js'></script>
+	<script  src='css/bootstrap/js/popper.min.js'></script>
+    <script  src='css/bootstrap/js/bootstrap.min.js'></script>
+    <script  src='js/jquery.easing.min.js'></script>
+    <script  src='js/jquery.fitvids.js'></script>
+    <script  src='js/jquery.magnific-popup.min.js'></script>
+	<script  src='js/owl-carousel/owl.carousel.min.js'></script>
+    <script  src='js/init.js'></script>
+    <script  src='js/jquery.form.min.js'></script>
+    <script  src='js/reservation-form.js'></script>
+  </body>
+</html>
